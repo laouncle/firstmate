@@ -1,0 +1,12 @@
+{
+  "name": "firstmate",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "joverina.rina-hermes-acp"
+      ]
+    }
+  },
+  "postCreateCommand": "# curl -fsSL https://github.com/gitricko/.minions/raw/refs/heads/main/install.sh | bash",
+  "postStartCommand":  "bash $HOME/.minions/boot.sh >> /tmp/.minions.log 2>&1"
+}
